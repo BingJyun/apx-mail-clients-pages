@@ -174,7 +174,7 @@
       <div class="lang-label">繁體中文</div>
 
       <h1 class="page-title">APX.AI 加密傳送 — 隱私權原則</h1>
-      <p class="meta">生效日期：2025 年 9 月 25 日 &nbsp;|&nbsp; 最後更新：2026 年 3 月</p>
+      <p class="meta">生效日期：2025 年 9 月 25 日 &nbsp;|&nbsp; 最後更新：2026 年 6 月</p>
 
       <div class="highlight-box">
         本隱私權原則適用於 <strong>APX.AI 加密傳送</strong>（Microsoft Outlook
@@ -196,18 +196,17 @@
         <ul>
           <li><strong>帳號資料：</strong>電子郵件地址、顯示名稱（於登入及身份驗證時取得）</li>
           <li>
-            <strong>使用記錄：</strong>Add-in
-            版本資訊、功能使用事件、錯誤與崩潰日誌、操作時間戳記、匿名化裝置資訊
-          </li>
-          <li>
-            <strong>傳送內容：</strong
-            >檔案名稱、大小、雜湊值及收件人資訊（所有內容均在客戶端加密後才傳輸至伺服器）
+            <strong>傳送內容：</strong>檔案名稱、大小、雜湊值及收件人資訊（檔案內容經 TLS
+            安全傳輸至本服務伺服器，加密由伺服器端執行）
           </li>
           <li>
             <strong>郵件用戶端環境：</strong>僅限與 APX.AI
             服務互動所需的必要資訊；不蒐集一般電子郵件內容或瀏覽記錄
           </li>
         </ul>
+        <p>
+          本服務<strong>不蒐集</strong>遙測資料、使用分析、崩潰日誌或裝置識別資訊；錯誤訊息僅於您的瀏覽器本機顯示，不會傳輸至本服務或第三方。
+        </p>
       </section>
 
       <section>
@@ -216,7 +215,6 @@
           <li>提供加密傳送服務的核心功能（加密、解密、安全儲存）</li>
           <li>身份驗證及帳號管理</li>
           <li>安全措施，包含詐欺偵測與預防</li>
-          <li>服務效能監控與功能改善（透過遙測資料）</li>
           <li>遵守適用法規及解決爭議</li>
         </ul>
       </section>
@@ -225,7 +223,7 @@
         <h2>4. 資料分享</h2>
         <p>我們不會將您的個人資料出售給第三方。資料僅在以下情況分享：</p>
         <ul>
-          <li><strong>服務供應商：</strong>雲端主機、分析工具等處理器，均簽有保密協議</li>
+          <li><strong>服務供應商：</strong>雲端主機等處理器，均簽有保密協議</li>
           <li><strong>法律要求：</strong>依法律規定或主管機關要求揭露時</li>
         </ul>
       </section>
@@ -233,7 +231,7 @@
       <section>
         <h2>5. 安全措施</h2>
         <ul>
-          <li>所有附件內容在上傳前均於客戶端完成加密</li>
+          <li>附件內容經 TLS 安全傳輸後，由伺服器端完成加密</li>
           <li>資料傳輸採用 TLS 加密</li>
           <li>存取控制遵循最小權限原則</li>
           <li>伺服器端僅儲存加密後的資料</li>
@@ -289,7 +287,7 @@
 
       <!-- ===== English Version ===== -->
       <h1 class="page-title">APX.AI Encrypted Send — Privacy Policy</h1>
-      <p class="meta">Effective Date: September 25, 2025 &nbsp;|&nbsp; Last Updated: March 2026</p>
+      <p class="meta">Effective Date: September 25, 2025 &nbsp;|&nbsp; Last Updated: June 2026</p>
 
       <div class="highlight-box">
         This Privacy Policy applies specifically to
@@ -318,18 +316,20 @@
             and authentication)
           </li>
           <li>
-            <strong>Usage Metrics:</strong> Add-in version, feature usage events, error/crash logs,
-            timestamps, anonymized device information
-          </li>
-          <li>
             <strong>Transmitted Content:</strong> File names, sizes, hash values, and recipient
-            information (all content is encrypted client-side before transmission)
+            information (file content is transmitted to our servers over TLS, and encryption is
+            performed server-side)
           </li>
           <li>
             <strong>Mail Client Environment:</strong> Only data necessary for interaction with
             APX.AI services; general email contents and browsing history are never collected
           </li>
         </ul>
+        <p>
+          The Service does <strong>not</strong> collect telemetry, usage analytics, crash logs, or
+          device-identifying information; error messages are shown only locally in your browser and
+          are never transmitted to the Service or any third party.
+        </p>
       </section>
 
       <section>
@@ -341,7 +341,6 @@
           </li>
           <li>Authentication and account management</li>
           <li>Security measures including fraud detection and prevention</li>
-          <li>Service performance monitoring and feature improvement via telemetry</li>
           <li>Compliance with applicable laws and dispute resolution</li>
         </ul>
       </section>
@@ -353,8 +352,8 @@
         </p>
         <ul>
           <li>
-            <strong>Service Providers:</strong> Cloud hosting and analytics processors under
-            confidentiality agreements
+            <strong>Service Providers:</strong> Cloud hosting processors under confidentiality
+            agreements
           </li>
           <li>
             <strong>Legal Requirements:</strong> When required by law or competent authorities
@@ -365,7 +364,7 @@
       <section>
         <h2>5. Security Measures</h2>
         <ul>
-          <li>All file content is encrypted client-side before upload</li>
+          <li>File content is encrypted server-side after secure transmission over TLS</li>
           <li>Data in transit is protected by TLS encryption</li>
           <li>Access controls follow the principle of least privilege</li>
           <li>Only encrypted data is stored on our servers</li>
