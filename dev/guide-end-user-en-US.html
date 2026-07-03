@@ -215,13 +215,20 @@ usual.</p>
 </ol>
 <h2 id="how-to-fill-the-recipient-field">7. How to Fill the Recipient
 Field</h2>
-<p>The add-in treats the part before <code>@</code> of the
-<strong>first</strong> address in the “To” field as the APX.AI recipient
-account (for example, <code>allen2@ioneit.com</code> maps to
-<code>allen2</code>).</p>
-<p>To target a specific APX.AI recipient, put
-<code>&lt;APX account&gt;@&lt;any domain&gt;</code> in the first slot of
-the “To” field.</p>
+<p>The add-in automatically fills the upload page’s “Recipients” field
+with the part before <code>@</code> of the <strong>first</strong>
+address in Outlook’s “To” field (for example,
+<code>allen2@ioneit.com</code> fills in <code>allen2</code>). This field
+is <strong>editable</strong> — you can type in any APX.AI account
+directly. The Outlook version detects changes to the “To” field live and
+keeps the field in sync automatically, but once you edit this field
+manually, it stops being overwritten unless you click
+<strong>Refresh</strong> to re-read it from Outlook’s “To” field.</p>
+<p><strong>The recipient must already have an APX.AI account to receive
+the securely sent file.</strong> If they haven’t registered, clicking
+<strong>Upload and Generate Link</strong> will show “No APX.AI account
+found for this recipient. Please confirm they have registered.” — ask
+them to complete sign-up first (see step 3), then resend.</p>
 <h2 id="faq">FAQ</h2>
 <ul>
 <li><strong>How does the recipient download?</strong> They click the
